@@ -18,11 +18,11 @@ const NavbarM = () => {
 
   return (
     <div className="lg:hidden block">
-      <div className="bg-[#1d1c39] w-full h-24 relative">
+      <div className="bg-[#1d1c39] w-full h-24 relative font-LexenDeca">
         <div className="flex flex-row items-center justify-between px-7 pt-7">
           {/* Brand Name */}
           <div className="font-sans">
-            <h1 className="text-white text-4xl">DevTrone</h1>
+            <h1 className="text-white text-4xl font-LexenDeca">DevTrone</h1>
           </div>
 
           {/* Hamburger Button */}
@@ -57,7 +57,7 @@ const NavbarM = () => {
           <ul className="flex flex-col space-y-4 py-6 px-6">
             {/* Home Dropdown */}
             <li
-              className="flex justify-between items-center text-white text-sm hover:text-gray-300 cursor-pointer"
+              className="flex justify-between items-center text-white text-sm hover:text-gray-300 cursor-pointer font-LexenDeca"
               onClick={() => toggleDropdown("home")}
             >
               <span>Home</span>
@@ -131,7 +131,7 @@ const NavbarM = () => {
                   <div className="flex items-start space-x-3 pr-7 pb-6">
                     <FaCode className="text-yellow-500 text-3xl " />
                     <div>
-                      <h3 className="text-black font-semibold text-md">
+                      <h3 className="text-black font-semibold text-md font-LexenDeca">
                         Software Development
                       </h3>
                       <p className="text-gray-500 text-sm">
