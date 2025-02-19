@@ -20,3 +20,7 @@ body {
   background: var(--background);
   font-family: var(--font-lexen-deca);
 }
+.custom-gradient {
+  background: linear-gradient(90deg, rgb(5, 22, 77) 0%, rgb(12, 51, 179) 100%) !important;
+}
+

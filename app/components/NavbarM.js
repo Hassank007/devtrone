@@ -1,7 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import { FaChevronDown,FaLongArrowAltRight } from "react-icons/fa";
-import { FaCode } from "react-icons/fa6";
+import { FaCode,FaArrowUpRightFromSquare } from "react-icons/fa6";
+
+import Button from "./Button";
 
 const NavbarM = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +19,7 @@ const NavbarM = () => {
   };
 
   return (
-    <div className="lg:hidden block">
+    <div className="xl:hidden block">
       <div className="bg-[#1d1c39] w-full h-24 relative font-LexenDeca">
         <div className="flex flex-row items-center justify-between px-7 pt-7">
           {/* Brand Name */}
@@ -349,11 +351,26 @@ const NavbarM = () => {
                 Visit Office
               </li>
             </ul>
+            <div className="flex flex-col items-start space-y-5">
+              <a href="#" className="flex flex-row gap-2 text-white hover:text-gray-600">
+                Hire
+                <FaArrowUpRightFromSquare  className="mt-1 text-white"/>
+              </a>
+              <a
+                href="#"
+                className="pr-5"
+              >
+                <Button/>
+              </a>
+            </div>
           </ul>
+          
         </div>
+        
       </div>
+     
     </div>
   );
 };
 
-export default NavbarM;
+export default NavbarM;8
