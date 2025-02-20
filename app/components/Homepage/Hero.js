@@ -5,6 +5,7 @@ const Hero = () => {
     <div className=' w-full h-screen'>
     <section className="relative flex flex-col items-center lg:items-start  text-center justify-center min-h-screen px-4 py-16 custom-gradient lg:gap-10 ">
       {/* Text Content */}
+      <div className='max-w-[90rem] 2xl:mx-auto'>
       <div className=" lg:pl-20 lg:pr-[20rem] lg:space-y-4 ">
         <h1 className="text-4xl md:text-4xl lg:text-5xl xl:text-7xl font-bold leading lg:leading-normal lg:text-left  text-white">
           Software Engineering,<br/> Consulting &amp; Outsourcing
@@ -17,7 +18,7 @@ const Hero = () => {
       </div>
 
       {/* Logos */}
-      <div className="mt-8 lg:ml-20 grid grid-cols-2 lg:grid-cols-4 items-center justify-center gap-6">
+      <div className="mt-8 lg:ml-20 grid grid-cols-2 lg:grid-cols-4 items-center justify-center gap-6 ">
         {/* Replace these src paths with your actual logo images in /public/logos/ */}
         <Image
           src="/logos/microsoft.png"
@@ -49,7 +50,7 @@ const Hero = () => {
         />
         {/* Add as many logos as you need */}
       </div>
-
+      </div>
       {/* Scroll Indicator (optional) */}
       <div className="absolute right-6 bottom-6 flex flex-col items-center">
         <span className="text-xs text-gray-500 mb-1">Scroll</span>
