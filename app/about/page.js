@@ -8,6 +8,8 @@ import Awards from "../components/about/Awards";
 import Partnerships from "../components/about/Partnerships";
 import Team from "../components/about/Team";
 import Testimonials from "../components/about/Testimonials";
+import ConsultationSection from "../components/ContactForm";
+import Footer from "../Footer";
 export default function AboutSection() {
     return (
       <><section className="bg-[#05164d] py-10 md:py-32">
@@ -75,6 +77,8 @@ export default function AboutSection() {
         <Partnerships/>
         <Team/>
         <Testimonials/>
+        <ConsultationSection/>
+        <Footer/>
         </>
     );
   }
