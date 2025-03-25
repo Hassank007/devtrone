@@ -15,12 +15,80 @@
   }
 }
 
+/* styles/globals.css */
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-lexen-deca);
+  scroll-behavior: smooth;
 }
 .custom-gradient {
   background: linear-gradient(90deg, rgb(5, 22, 77) 0%, rgb(12, 51, 179) 100%) !important;
 }
 
+/* HomePge */
+/* Custom scrollbar style for horizontal scrolling container */
+/* Custom scrollbar style for horizontal scrolling container */
+.scrollbar-custom::-webkit-scrollbar {
+  height: 4px; /* Smaller scrollbar for desktop */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* For Firefox */
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+/* Adjust scrollbar for mobile screens */
+@media (max-width: 768px) {
+  .scrollbar-custom::-webkit-scrollbar {
+    height: 2px; /* Even smaller on mobile */
+  }
+  .scrollbar-custom {
+    scrollbar-width: auto;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+  }
+}
+@keyframes marqueeLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marqueeRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee-left {
+  animation: marqueeLeft 100s linear infinite;
+}
+
+.animate-marquee-right {
+  animation: marqueeRight 100s linear infinite;
+}

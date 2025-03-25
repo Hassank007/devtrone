@@ -53,7 +53,7 @@ export default function WeWorkWith() {
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
                 className={`
-                  px-6 py-2 rounded-full text-sm lg:text-xl font-medium transition-colors
+                  px-6 py-2 rounded-full text-[10px] s:text-sm lg:text-xl font-medium transition-colors
                   ${
                     activeTab === tab.id
                       ? 'bg-blue-600 text-white shadow'

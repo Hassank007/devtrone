@@ -7,6 +7,20 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+        marqueeRightt: {
+         '0%': { transform: 'translateX(-100%)' }, // start off-screen left
+          '100%': { transform: 'translateX(0)' }, 
+        },
+      },
+      animation: {
+        marquee: 'marquee 15s linear infinite',
+        marqueeRightt: 'marqueeRightt 15s linear infinite',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -42,5 +56,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+  
+  ],
 };
