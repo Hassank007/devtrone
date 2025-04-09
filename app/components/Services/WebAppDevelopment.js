@@ -51,7 +51,7 @@ export default function WebAppDevelopment() {
   ]
 
   return (
-    <div className="bg-white py-10 md:py-40">
+    <div className="bg-white py-10 md:py-40 text-black">
       <div className="max-w-7xl mx-auto px-4">
         {/* Section Title */}
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-5">

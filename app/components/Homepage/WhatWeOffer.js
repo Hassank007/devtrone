@@ -124,35 +124,35 @@ export default function StickySection() {
 
                 {/* Bullet Points in a 2-column grid */}
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2">
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     AI Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     Large Language Model
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     AI Chatbot Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     RPA Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     ML Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     Generative AI
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     ChatGPT Solutions
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     AI Consulting
                   </li>
@@ -280,35 +280,35 @@ export default function StickySection() {
 
                 {/* Bullet Points in a 2-column grid */}
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2">
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     AI Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     Large Language Model
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     AI Chatbot Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     RPA Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     ML Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     Generative AI
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     ChatGPT Solutions
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     AI Consulting
                   </li>
@@ -436,35 +436,35 @@ export default function StickySection() {
 
                 {/* Bullet Points in a 2-column grid */}
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2">
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     AI Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     Large Language Model
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     AI Chatbot Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     RPA Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     ML Development
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     Generative AI
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     ChatGPT Solutions
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-black">
                     <span className="text-yellow-500 mr-2">✔</span>
                     AI Consulting
                   </li>

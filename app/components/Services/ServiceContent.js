@@ -4,6 +4,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import ExpandableCard from './ExpandableCard';
 const ServiceContent = () => {
   return (
+    <section className='bg-white text-black'>
     <div className="max-w-[90rem] mx-auto px-4 py-8">
       {/* Main Container: using flex to place content + TOC side by side */}
       <div className="flex flex-col lg:flex-row gap-10">
@@ -256,6 +257,7 @@ const ServiceContent = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

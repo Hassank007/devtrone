@@ -60,7 +60,7 @@ export default function HiringModelsPage() {
   const currentTabData = TABS[activeTab]
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white text-black">
       <div className="mx-auto max-w-7xl px-4 py-16">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-2">

@@ -85,19 +85,19 @@ export default function WeWorkWith() {
                     We help startups accelerate their growth with agile IT and digital transformation strategies.
                   </p>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       Product Discovery
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       Product Development
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       MVP Development
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       CTO as a Service
                     </li>
@@ -127,19 +127,19 @@ export default function WeWorkWith() {
                     Large-scale businesses rely on our expertise to modernize legacy systems, build new software solutions, and create seamless customer experiences.
                   </p>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       Enterprise Software Development
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       Cloud & DevOps
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       System Integration
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       Consulting & Support
                     </li>
@@ -169,19 +169,19 @@ export default function WeWorkWith() {
                     We partner with design and marketing agencies to handle the technical heavy lifting, from custom software engineering to IT solutions that elevate your clients’ brands and bottom lines.
                   </p>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       White-Label Development
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       Custom Integrations
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       Maintenance & Support
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center text-black">
                       <span className="text-yellow-500 mr-2">✔</span>
                       Ongoing Collaboration
                     </li>

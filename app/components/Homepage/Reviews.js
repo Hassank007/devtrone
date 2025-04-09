@@ -29,15 +29,15 @@ const Reviews = () => {
       {/* Stats Boxes */}
       <div className="grid grid-cols-2 md:grid-cols-3 border border-gray-400 md:border-none rounded-lg text-center">
   <div className="p-4 md:p-8 border-r md:border-b md:border-r border-gray-400">
-    <p className="text-4xl md:text-6xl font-bold">675+</p>
+    <p className="text-4xl md:text-6xl font-bold text-black">675+</p>
     <p className="text-gray-600">Developers</p>
   </div>
   <div className="p-4 md:p-8  md:border-b border-gray-400">
-    <p className="text-4xl md:text-6xl font-bold ">4200+</p>
+    <p className="text-4xl md:text-6xl font-bold text-black">4200+</p>
     <p className="text-gray-600">Projects Delivered</p>
   </div>
   <div className=" md:p-8 col-span-2 md:col-span-1 p-4 border-t md:border-t-0 border-gray-400 md:border-b md:border-l">
-    <p className="text-4xl md:text-6xl font-bold">97%</p>
+    <p className="text-4xl md:text-6xl font-bold text-black">97%</p>
     <p className="text-gray-600">Client Satisfaction</p>
   </div>
 </div>

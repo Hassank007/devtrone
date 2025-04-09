@@ -4,7 +4,7 @@ export default function CoreValuesSection() {
   return (
     <section className="flex flex-col md:flex-row w-full">
       {/* Left Side: Image (covering half the width) */}
-      <div className="md:w-1/2">
+      <div className="md:w-1/2 bg-white">
         <img
           src="/core-values.webp"
           alt="Chess"

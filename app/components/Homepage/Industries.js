@@ -67,7 +67,7 @@ export default function Industries() {
   };
 
   return (
-    <div className="w-full py-36">
+    <div className="w-full py-36 bg-white text-black">
       {/* Header section with title on left and nav buttons on right */}
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         <div>
@@ -135,7 +135,7 @@ export default function Industries() {
               <div className="group relative bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow duration-200 h-[315px]">
                 {/* Top Section: Title */}
                 <div className="p-4">
-                  <h3 className="text-xl font-bold">{item.title}</h3>
+                  <h3 className="text-xl font-bold text-black">{item.title}</h3>
                   <div className="pt-3 text-gray-700 space-y-2">
                     <p className="text-gray-600">{item.subTitle}</p>
                   </div>

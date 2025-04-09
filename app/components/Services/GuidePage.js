@@ -4,8 +4,9 @@ import React from "react"
 
 export default function GuidePage() {
   return (
-    <main className="max-w-7xl mx-auto px-4 py-8">
+    <main className=" bg-white text-black">
       {/* Main Page Title */}
+      <section className="max-w-7xl mx-auto px-4 md:px-0 py-8">
       <h1 className="text-center text-2xl md:text-3xl font-bold mb-8">
         Guide to Understanding Custom Web Application Development
       </h1>
@@ -13,7 +14,7 @@ export default function GuidePage() {
       <div className="md:flex gap-8">
         {/* LEFT SIDEBAR (Guide Topics) */}
         <aside className="md:w-1/3 lg:w-1/4 bg-gray-50 p-4 rounded-md overflow-y-auto md:sticky md:top-8 h-auto md:h-[calc(100vh-4rem)]">
-          <h2 className="text-xl font-semibold mb-4">GUIDE TOPICS</h2>
+          <h2 className="text-xl font-semibold mb-4 text-black">GUIDE TOPICS</h2>
           <ul className="space-y-2">
             {/* Each topic links to a section on the right side */}
             <li>
@@ -148,6 +149,7 @@ export default function GuidePage() {
           </article>
         </section>
       </div>
+      </section>
     </main>
   )
 }

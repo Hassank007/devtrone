@@ -69,7 +69,7 @@ export default function TechCarousel() {
   }, [emblaApi]);
 
   return (
-    <div className="bg-white py-16">
+    <div className="bg-white py-16 text-black">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center">
           Technologies &amp; Frameworks We Use

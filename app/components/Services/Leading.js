@@ -15,7 +15,7 @@ const LeadingSection = () => {
   ];
 
   return (
-    <section className="bg-white py-12">
+    <section className="bg-white py-12 text-black">
       <div className="max-w-7xl mx-auto px-4">
         {/* Top Row: Heading & Description and Animated Logos */}
         <div className="flex flex-wrap items-start -mx-4">

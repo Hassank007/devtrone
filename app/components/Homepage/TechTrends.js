@@ -57,10 +57,11 @@ export default function TechTabs() {
   const [activeTab, setActiveTab] = useState(tabs[0]);
 
   return (
-    <section className="max-w-7xl mx-auto py-16 px-4">
+    <section className=" bg-white text-black">
       {/* Heading */}
+      <div className="max-w-7xl mx-auto py-16 px-4 text-black">
       <div className="text-center mb-8">
-        <h2 className="text-3xl md:text-4xl font-bold">
+        <h2 className="text-3xl md:text-4xl font-bold text-black">
           Tech Trends We Follow
         </h2>
         <p className="text-gray-600 mt-2 max-w-2xl mx-auto">
@@ -70,7 +71,7 @@ export default function TechTabs() {
       </div>
 
       {/* Tabs */}
-      <div className="flex flex-wrap justify-center items-center gap-4 mb-8">
+      <div className="flex flex-wrap justify-center items-center gap-4 mb-8 bg-white">
         {tabs.map((tab) => (
           <button
             key={tab.id}
@@ -132,6 +133,7 @@ export default function TechTabs() {
             </div>
           </motion.div>
         </AnimatePresence>
+      </div>
       </div>
     </section>
   );
